@@ -1,4 +1,5 @@
-require 'sinatra'
+require "bundler/setup"
+Bundler.require(:default)
 require 'net/http'
 require 'uri'
 
